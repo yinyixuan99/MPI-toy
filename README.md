@@ -9,7 +9,7 @@
 unzip data.zip
 python toy.py [--gpu 0] [--batch 7] [--epoch 50]
 ```
-未调参，有时不收敛
+未调参，有时不收敛。输出存于 result 目录。
 ## MPI
 以大致垂直于 z 轴的成像面为标准成像面，取 Blender 脚本输出。外参存于 extrinsics.npy。
 
