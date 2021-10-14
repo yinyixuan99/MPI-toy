@@ -6,6 +6,7 @@
 * cudatoolkit 11.1
 ## 运行
 ```
+unzip data.zip
 python toy.py [--gpu 0] [--batch 7] [--epoch 50]
 ```
 未调参，有时不收敛
